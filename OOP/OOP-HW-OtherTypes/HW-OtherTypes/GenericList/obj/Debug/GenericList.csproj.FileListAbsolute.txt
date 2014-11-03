@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\bin\Debug\GenericList.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\obj\Debug\GenericList.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\bin\Debug\GenericList.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\bin\Debug\GenericList.pdb
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\obj\Debug\GenericList.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GenericList\obj\Debug\GenericList.pdb

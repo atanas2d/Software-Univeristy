@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\bin\Debug\Customer.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\bin\Debug\Customer.exe
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\bin\Debug\Customer.pdb
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\obj\Debug\Customer.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\obj\Debug\Customer.exe
+D:\Development\SoftUni\OOP\OOP-HW-CommonTypeSystem\Customer\Customer\obj\Debug\Customer.pdb

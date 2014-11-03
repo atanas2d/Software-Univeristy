@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\bin\Debug\StringBuilderExtensions.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\bin\Debug\StringBuilderExtensions.exe
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\bin\Debug\StringBuilderExtensions.pdb
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\obj\Debug\StringBuilderExtensions.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\obj\Debug\StringBuilderExtensions.exe
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\StringBuilderExtensions\StringBuilderExtensions\obj\Debug\StringBuilderExtensions.pdb

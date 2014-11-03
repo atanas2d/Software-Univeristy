@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem4 - Website Header</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Verdana;
+        }
+        header {
+            width: 100%;
+            height: 12%;
+            min-height: 105px;
+            background: #37638e;
+            color: white;
+            padding: 0 1%;
+        }
+        header a, a:visited {
+            text-decoration: none;
+            color: white;
+        }
+        header a:hover {
+            color: lightskyblue;
+        }
+        table {
+            width: 98%;
+            height: 100%;
+            padding: 1%;
+        }
+        table td {
+            vertical-align: bottom;
+            text-align: right;
+        }
+        #logoTd {
+            width: 35%;
+            min-width: 260px;
+            height: 70px;
+            background: url('https://softuni.bg/Content/design/logo.png') no-repeat scroll 0px 0px transparent;
+            cursor: pointer;
+        }
+        #logoTd:hover {
+            box-shadow: 0 0 50px 5px #37638e inset;
+
+        }
+        .drop-stroke {
+            font-size: 0.6em;
+            font-family:  Verdana, Arial;
+            color: #37638e;
+            vertical-align: 20%;
+            margin: 3px;
+            padding: 0 3px;
+            background: lightskyblue;
+            border-radius: 3px;
+        }
+        .vertical-centered {
+            margin: 5px;
+            vertical-align: 20%;
+            cursor: pointer;
+        }
+        #notify-img {
+            cursor: pointer;
+        }
+        #notify-td {
+            text-align: right;
+        }
+        .vertical-centered:hover {
+            color: lightskyblue;
+        }
+        .search-button {
+            height: 16px;
+            width: 10%;
+            left: -15px;
+            margin: 0;
+            border: 0;
+            vertical-align: 25%;
+            border-collapse: collapse;
+            background:url("https://softuni.bg/Content/design/magn-glass-icon17.png") no-repeat lightskyblue;
+            box-shadow: 0 0 10px 5px lightskyblue;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-box {
+            border-radius: 5px;
+            border: 0;
+            box-shadow: 0 0 15px 3px lightskyblue;
+            height: 25px;
+            width: 85%;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <table>
+        <tr>
+            <td rowspan="2" id="logoTd" onclick="window.location.href='https://softuni.bg'"></td>
+            <td></td>
+            <td></td>
+            <td id="notify-td" colspan="2"><span class="vertical-centered">0</span><img src="https://softuni.bg/Content/design/notificationsIcon.png" alt="notifications" id="notify-img"/></td>
+            <td>
+                <span class="vertical-centered"><a href="https://softuni.bg">USER<strong class="drop-stroke">V</strong></a></span>
+            </td>
+            <td colspan="2">
+                <form class="search-form">
+                    <input type="search" name="googlesearch" placeholder="Search me" class="search-box">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </td>
+
+        </tr>
+        <tr>
+            <td><a href="https://softuni.bg">NEWS</a></td>
+            <td><a href="https://softuni.bg">ABOUT THE UNIVERSITY<strong class="drop-stroke">V</strong></a></td>
+            <td><a href="https://softuni.bg">TRAINING COURSES<strong class="drop-stroke">V</strong></a></td>
+            <td><a href="https://softuni.bg">FOR COMPANIES</a></td>
+            <td><a href="https://softuni.bg">FORUM</a></td>
+            <td><a href="https://softuni.bg">CONTACTS</a></td>
+        </tr>
+    </table>
+</header>
+</body>
+</html>

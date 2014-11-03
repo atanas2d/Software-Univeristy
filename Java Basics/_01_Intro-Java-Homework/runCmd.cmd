@@ -1,0 +1,1 @@
+jar cf myJar src/GeneratePDF.class lib/*  .classpath Manifest.txt

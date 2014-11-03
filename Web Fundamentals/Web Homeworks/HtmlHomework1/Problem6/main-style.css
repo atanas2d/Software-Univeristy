@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+body {
+    background: skyblue;
+}
+.indent {
+    margin-left: 40px;
+}
+#doge-image {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}

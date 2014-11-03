@@ -1,0 +1,6 @@
+C:\CSharp Projects\Cinema\Cinema\bin\Debug\Cinema.exe.config
+C:\CSharp Projects\Cinema\Cinema\bin\Debug\Cinema.exe
+C:\CSharp Projects\Cinema\Cinema\bin\Debug\Cinema.pdb
+C:\CSharp Projects\Cinema\Cinema\obj\Debug\Cinema.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\Cinema\Cinema\obj\Debug\Cinema.exe
+C:\CSharp Projects\Cinema\Cinema\obj\Debug\Cinema.pdb

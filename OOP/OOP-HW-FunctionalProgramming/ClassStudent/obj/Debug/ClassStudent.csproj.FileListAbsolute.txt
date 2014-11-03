@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\bin\Debug\ClassStudent.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\bin\Debug\ClassStudent.exe
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\bin\Debug\ClassStudent.pdb
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\obj\Debug\ClassStudent.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\obj\Debug\ClassStudent.exe
+D:\Development\SoftUni\OOP\OOP-HW-FunctionalProgramming\ClassStudent\obj\Debug\ClassStudent.pdb

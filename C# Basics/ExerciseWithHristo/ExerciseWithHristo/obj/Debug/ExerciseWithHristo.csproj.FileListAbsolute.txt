@@ -1,0 +1,6 @@
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\bin\Debug\ExerciseWithHristo.exe.config
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\bin\Debug\ExerciseWithHristo.exe
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\bin\Debug\ExerciseWithHristo.pdb
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\obj\Debug\ExerciseWithHristo.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\obj\Debug\ExerciseWithHristo.exe
+C:\CSharp Projects\ExerciseWithHristo\ExerciseWithHristo\obj\Debug\ExerciseWithHristo.pdb

@@ -1,0 +1,6 @@
+C:\CSharp Projects\IntroToCSharp\Chapter.2\bin\Debug\Chapter.2.exe.config
+C:\CSharp Projects\IntroToCSharp\Chapter.2\bin\Debug\Chapter.2.exe
+C:\CSharp Projects\IntroToCSharp\Chapter.2\bin\Debug\Chapter.2.pdb
+C:\CSharp Projects\IntroToCSharp\Chapter.2\obj\Debug\Chapter.2.exe
+C:\CSharp Projects\IntroToCSharp\Chapter.2\obj\Debug\Chapter.2.pdb
+C:\CSharp Projects\IntroToCSharp\Chapter.2\obj\Debug\Chapter.2.csprojResolveAssemblyReference.cache

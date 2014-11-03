@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica;
+}
+
+#container {
+    width: 640px;
+    margin: 0 auto;
+}
+#container article {
+    width: 280px;
+    float: left;
+    margin: 10px;
+    box-shadow: 3px 3px 3px 1px lightgray;
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+#container article img {
+    float: left;
+    margin-right: 5px;
+}
+#container article h2 {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+#container article h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#container article time {
+    font-size: 10px;
+}
+#container article p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}

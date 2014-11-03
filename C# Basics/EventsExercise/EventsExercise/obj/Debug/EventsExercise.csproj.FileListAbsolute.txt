@@ -1,0 +1,6 @@
+C:\CSharp Projects\EventsExercise\EventsExercise\bin\Debug\EventsExercise.exe.config
+C:\CSharp Projects\EventsExercise\EventsExercise\bin\Debug\EventsExercise.exe
+C:\CSharp Projects\EventsExercise\EventsExercise\bin\Debug\EventsExercise.pdb
+C:\CSharp Projects\EventsExercise\EventsExercise\obj\Debug\EventsExercise.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\EventsExercise\EventsExercise\obj\Debug\EventsExercise.exe
+C:\CSharp Projects\EventsExercise\EventsExercise\obj\Debug\EventsExercise.pdb

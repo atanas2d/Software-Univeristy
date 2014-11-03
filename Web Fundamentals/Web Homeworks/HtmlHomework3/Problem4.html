@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem4 - Fakebook Register Form</title>
+</head>
+<style>
+    html, body {
+        font-family: Verdana,Geneva, sans-serif;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: lightgray;
+        box-shadow: 0 0 300px 30px white inset;
+        overflow: hidden;
+    }
+    header, main {
+        width: 30%;
+        min-width: 800px;
+        margin: 0 auto;
+        background: cornflowerblue;
+        color: white;
+        box-shadow: 0 100px 100px 3px darkgray;
+    }
+    main {
+        min-height: 100%;
+    }
+    header h1 {
+        font-size: 6em;
+        margin: 0;
+    }
+    header h1 sub {
+        font-size: 0.2em;
+        vertical-align: 10%;
+    }
+    header h2, h4, h1 {
+        text-align: center;
+    }
+    header h2 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    header h4 {
+        margin: 0 ;
+        padding: 10px 0 30px 0;
+    }
+    #registration-form {
+        width: 100%;
+        min-height: 350px;
+    }
+    #left-section, #right-section {
+        float: left;
+        min-height: 200px;
+        min-width: 300px;
+        border: 1px solid;
+        margin: 2%;
+        padding: 1%;
+        border-radius: 10px;
+        position: relative;
+    }
+    #left-section {
+        width: 25%;
+    }
+    #right-section {
+        width: 50%;
+        float:right;
+    }
+    #registration-form h5{
+        margin: 0;
+        padding: 0 2px;
+        text-align: center;
+        position: absolute;
+        top: -10px;
+        left: 17%;
+        background: cornflowerblue;
+    }
+    #right-section input, #left-section input{
+        height: 25px;
+        border-radius: 5px;
+        border: 0;
+        box-shadow: 0 0 3px 1px royalblue;
+    }
+    #registration-form select {
+        color: gray;
+        padding-top: 4px;
+        height: 25px;
+        border-radius: 5px;
+        border: 0;
+        box-shadow: 0 0 3px 1px royalblue;
+    }
+    .two-in-row {
+        float: left;
+        width: 45%;
+        margin: 5px 5px 5px 0;
+    }
+    .three-in-row {
+        float: left;
+        width: 31%;
+        margin: 5px 5px 5px 0;
+    }
+    .four-in-row {
+        float: left;
+        width: 20%;
+        margin: 5px 5px 5px 0;
+    }
+    #left-section input[type="radio"] {
+        height: auto;
+        box-shadow: none;
+        vertical-align: -10%;
+        margin-top: 5px;
+    }
+    label {
+        margin-right: 10px;
+    }
+
+    #more-about {
+        width: 95%;
+        min-height: 50px;
+        vertical-align: top;
+    }
+    #reset-form, #register-btn {
+        background: lightgray;
+        border: 0;
+        box-shadow: none;
+        margin: 0 2%;
+        color: royalblue;
+        cursor: pointer;
+        height: 55px;
+        border-radius: 10px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #reset-form:hover, #register-btn:hover {
+        background: lightcyan;
+    }
+    #buttons {
+        display: inline-block;
+        width: 100%;
+    }
+    #reset-form {
+        width: 34%;
+        float:left;
+    }
+    #register-btn {
+        width: 52%;
+        font-size: 1.5em;
+        float: right;
+    }
+</style>
+<body>
+<header>
+    <h1>fakebook<sub>&reg</sub></h1>
+    <h2>Registration</h2>
+    <h4>It is safe and it will always be!</h4>
+</header>
+<main>
+    <form name="registration-form" id="registration-form" >
+        <section id="left-section">
+            <h5>None-Important Information</h5>
+            <input type="text" name="first-name" id="first-name" placeholder="Full Name" class="two-in-row" tabindex="1"/>
+            <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="two-in-row" tabindex="2"/>
+            <br/>
+            <input type="email" name="email" id="email" placeholder="Your Email" class="two-in-row" tabindex="4"/>
+            <input type="tel" name="tel" id="tel" placeholder="Phone Number" class="two-in-row" tabindex="3"/>
+            <br/>
+            <input type="password" name="pas" id="pas" placeholder="Your Password" class="two-in-row" />
+            <input type="url" name="website" id="website" placeholder="Website" class="two-in-row"/>
+            <br/>
+            <label for="birthday">Birthday</label> <br/>
+            <input type="datetime-local" name="birthday" id="birthday" value="2014-05-09T01:58"/>
+            <br/>
+            <input type="radio" name="sex" id="sex-female" class="radio"/><label for="sex-female">Female</label>
+            <input type="radio" name="sex" id="sex-male" class="radio"/><label for="sex-male">Male</label>
+            <input type="radio" name="sex" id="sex-other" class="radio" checked/><label for="sex-other">Other</label>
+
+        </section>
+        <section id="right-section">
+            <h5>Important Information *required</h5>
+            <select name="country" id="country" required="required" class="three-in-row">
+                <option selected>Country</option>
+                <option value="Bulgaria">Bulgara</option>
+                <option value="USA">USA</option>
+            </select>
+            <input type="text" name="village" placeholder="Village" required="" class="three-in-row"/>
+            <input type="text" name="distinct" placeholder="Distinct" required="" class="three-in-row"/>
+            <br/>
+            <input type="text" name="street" placeholder="Street" required="" class="three-in-row"/>
+            <input type="text" name="nr" placeholder="Nr" required="" class="four-in-row"/>
+            <input type="text" name="floor" placeholder="Floor" required="" class="four-in-row"/>
+            <input type="text" name="ap-nr" placeholder="Ap Nr" required="" class="four-in-row"/>
+            <br/>
+            <label for="door-color">Door Color</label> <br/>
+            <input type="color" name="door-color" id="door-color" class="three-in-row" value="#009933"/>
+            <input type="text" name="water-meter" class="three-in-row" placeholder="Water Meter"/>
+            <select name="aunt-panties-size" id="aunt-panties-size" class="three-in-row">
+                <option selected >Aunt Panties Size</option>
+                <option value="m">M</option>
+                <option value="xxl">XXL</option>
+            </select>
+            <br/><br/><br/>
+
+            <label for="more-about" id="more-about-label">More Personal Information</label> <br/>
+            <textarea id="more-about" name="more-about" placeholder="Give Us More Information!!!" required></textarea>
+        </section>
+        <section id="buttons">
+            <input type="reset" id="reset-form" value="Clear Form"/>
+            <input type="submit" id="register-btn" value="Register"/>
+        </section>
+
+    </form>
+</main>
+</body>
+</html>

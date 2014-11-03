@@ -1,0 +1,122 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-image: url("colorful_dots_on_black.jpg");
+}
+body>header {
+    background: forestgreen;
+    color: gold;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-left: 8em solid red;
+    border-right: 8em solid blue;
+    min-width: 400px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+aside, article {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+}
+aside {
+    float: left;
+    padding-right: 50px;
+}
+aside header {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+aside ul {
+    padding-left: 5px;
+}
+aside ul li {
+    list-style-type: none;
+    background-image: url("http://ranetmedia.com/wp-content/uploads/2013/08/bullet-points-tick-green.png");
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    background-size: 18px 18px;
+    padding-left: 35px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+aside li a, aside li a:visited, aside li a:hover {
+    text-decoration: none;
+    color: black;
+}
+aside ul li:nth-child(1):hover {
+    background-color: red;
+}
+aside ul li:nth-child(2):hover {
+    background-color: goldenrod;
+}
+aside ul li:nth-child(3):hover {
+    background-color: yellow;
+}
+aside ul li:nth-child(4):hover {
+    background-color: forestgreen;
+}
+aside ul li:nth-child(4):hover a {
+    color: white;
+}
+aside ul li:nth-child(5):hover {
+    background-color: blue;
+}
+aside ul li:nth-child(5):hover a {
+    color: white;
+}
+aside ul li:nth-child(6):hover {
+    background-color: purple;
+}
+aside ul li:nth-child(6):hover a {
+    color: white;
+}
+section {
+    margin-left: 270px;
+    margin-right: 20px;
+    min-width: 500px;
+}
+
+article header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article:nth-child(1) header {
+    color: white;
+    background: red;
+}
+article:nth-child(2) header {
+    color: black;
+    background: goldenrod;
+}
+article:nth-child(3) header {
+    color: black;
+    background: yellow;
+}
+article:nth-child(4) header {
+    color: white;
+    background: forestgreen;
+}
+article:nth-child(5) header {
+    color: white;
+    background: blue;
+}
+article:nth-child(6) header {
+    color: white;
+    background: purple;
+}
+article a, article a:visited, article a:hover {
+    color: gray;
+    font-style: italic ;
+}
+
+

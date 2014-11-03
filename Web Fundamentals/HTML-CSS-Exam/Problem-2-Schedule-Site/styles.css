@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Fairview;
+    src: url("Fairview_Regular.otf");
+}
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body, footer {
+    font-family: 'Nunito',Arial, sans-serif;
+}
+header {
+    font-family: 'Fairview', Helvetica, sans-serif;
+}
+header, #container, footer {
+    width: 670px;
+    padding: 0;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+}
+a:link, a:hover, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+header h1 {
+    color: white;
+    background: #E05E43;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 6em;
+    margin: 0;
+    cursor: pointer;
+}
+header h1:hover {
+    color: black;
+}
+header nav {
+    display: inline-block;
+}
+header nav ul{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+header nav ul li {
+    list-style: none;
+    margin: 5px 20px;
+    float:left;
+    font-size: 1.1em;
+    color: dimgray;
+    padding: 3px;
+    cursor: pointer;
+}
+header nav ul li:hover {
+    color: black;
+}
+header nav ul li.selected {
+    background: #E05E43;
+    color: white;
+}
+header nav ul li.selected:hover {
+    color: black;
+}
+
+section#container h2 {
+    padding: 0;
+    margin: 20px 50px;
+}
+section#container article {
+    padding: 0;
+    margin: 0 50px;
+}
+section#container article>time {
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+section#container article table {
+    border-top: 2px solid lightgray;
+}
+section#container article table th {
+    text-align: left;
+
+}
+section#container article table td, th {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 30px;
+}
+section#container article table tr td:nth-child(3) a {
+    color: brown;
+    border-bottom: 1px dashed #E05E43;
+    cursor: pointer;;
+}
+section#container article table tr td:nth-child(3) a:hover {
+    border-bottom: 1px solid #E05E43;
+}
+footer {
+    background: #222222;
+    text-align: center;
+    color: darkgray;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+footer > a {
+    color: dimgray;
+}
+footer > address {
+    color: dimgray;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+footer > address:hover, footer > a:hover {
+    color: darkgray;
+}
+footer nav {
+    display: inline-block;
+    border-bottom: 1px solid dimgray;
+    width: 60%;
+    padding: 0 10%;
+    margin-bottom: 10px;
+}
+footer nav ul {
+    padding:0;
+    margin: 0;
+}
+footer nav ul li {
+    float:left;
+    list-style: none;
+    margin: 10px 0;
+    color: darkgray;
+    padding: 5px 10px;
+
+}
+footer nav ul li:hover {
+    color: brown;
+    background: gray;
+}

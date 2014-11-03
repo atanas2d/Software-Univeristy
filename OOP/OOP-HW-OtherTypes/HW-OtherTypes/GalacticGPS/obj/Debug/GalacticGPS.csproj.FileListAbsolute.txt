@@ -1,0 +1,7 @@
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\GalacticGPS\bin\Debug\GalacticGPS.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\bin\Debug\GalacticGPS.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\bin\Debug\GalacticGPS.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\bin\Debug\GalacticGPS.pdb
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\obj\Debug\GalacticGPS.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\obj\Debug\GalacticGPS.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\GalacticGPS\obj\Debug\GalacticGPS.pdb

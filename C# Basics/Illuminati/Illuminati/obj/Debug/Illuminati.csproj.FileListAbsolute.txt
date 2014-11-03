@@ -1,0 +1,6 @@
+C:\CSharp Projects\Illuminati\Illuminati\bin\Debug\Illuminati.exe.config
+C:\CSharp Projects\Illuminati\Illuminati\bin\Debug\Illuminati.exe
+C:\CSharp Projects\Illuminati\Illuminati\bin\Debug\Illuminati.pdb
+C:\CSharp Projects\Illuminati\Illuminati\obj\Debug\Illuminati.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\Illuminati\Illuminati\obj\Debug\Illuminati.exe
+C:\CSharp Projects\Illuminati\Illuminati\obj\Debug\Illuminati.pdb

@@ -1,0 +1,6 @@
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\bin\Debug\HW-StaticMembersAndNamespaces-Point3D.exe.config
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\bin\Debug\HW-StaticMembersAndNamespaces-Point3D.exe
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\bin\Debug\HW-StaticMembersAndNamespaces-Point3D.pdb
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\obj\Debug\HW-StaticMembersAndNamespaces-Point3D.csprojResolveAssemblyReference.cache
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\obj\Debug\HW-StaticMembersAndNamespaces-Point3D.exe
+c:\users\atanas2d\documents\visual studio 2013\Projects\HW-StaticMembersAndNamespaces-Point3D\HW-StaticMembersAndNamespaces-Point3D\obj\Debug\HW-StaticMembersAndNamespaces-Point3D.pdb

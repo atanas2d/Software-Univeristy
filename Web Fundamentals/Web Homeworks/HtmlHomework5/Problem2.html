@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem2 - Kent's Media Profile</title>
+    <style>
+        html, body {
+            font-family: Tahoma, Verdana, sans-serif;
+            height: 100%;
+        }
+        #content {
+            max-width: 80%;
+            width: auto;
+            margin: 20px auto;
+            height: 450px;
+            border-radius: 10px;
+            background: pink;
+            padding: 5px;
+        }
+        #content h1 {
+            text-align: center;
+        }
+
+        #content figure {
+            float: left;
+            margin: 5px;
+            border: 1px dashed steelblue;
+        }
+        #content figure img {
+            height: 250px;
+            width: auto;
+        }
+        #content figcaption {
+            font-size: 1.5em;
+        }
+        #content meter {
+            width: 80%;
+            height: 25px;
+        }
+        #content audio {
+            margin-bottom: 10px;
+            width: 350px;
+        }
+        .active {
+            padding: 50px 0 100px 0;
+            background: black;
+            border-radius: 5px;
+        }
+        footer {
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            background: yellowgreen;
+            box-shadow: 0 0 5px 1px darkgray;
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+<section id="content">
+    <header><h1>Profile</h1></header>
+    <figure>
+        <figcaption> User: Kent </figcaption>
+        <img src="http://www.manbehindthedoll.com/images/2011ken.jpg" alt="Ken photo" />
+        <figcaption>
+            Profile completed 60% <br/>
+            <meter value="60" min="0" max="100"></meter>
+        </figcaption>
+    </figure>
+    <figure>
+        <figcaption>Upload Audio Files</figcaption>
+        <audio controls class="active">
+            <source src="https://drive.google.com/uc?export=download&id=0B5LQE2MlcwUrRTF1QWllUXNYa0k" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br/>
+        <audio controls>
+            <source src="https://drive.google.com/uc?export=download&id=0B5LQE2MlcwUrYnVRU1NHekFxWUE" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br/>
+        <audio controls>
+            <source src="https://www.drive.google.com/uc?export=download&id=0B5LQE2MlcwUrRTF1QWllUXNYa0k" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br/>
+        <audio controls>
+            <source src="https://www.drive.google.com/uc?export=download&id=0B5LQE2MlcwUrYnVRU1NHekFxWUE" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </figure>
+    <figure>
+        <figcaption>Upload Video Files</figcaption>
+        <video width="530" height="300" controls src="https://r8---sn-8p85jvh-nv4e.googlevideo.com/videoplayback?ipbits=0&itag=18&mws=yes&ms=au&requiressl=yes&upn=ilTa3TuUELQ&source=youtube&fexp=3300043,3300119,3300134,3300137,3300164,3310366,3310648,3310705,3312169,902408,916612,919514,924222,930008,930813,931975,934030,940645,945402,946008,949501&ratebypass=yes&sver=3&mv=m&sparams=id,ip,ipbits,itag,ratebypass,requiressl,source,upn,expire&ip=90.154.198.243&mt=1403787384&key=yt5&expire=1403809200&id=o-AHxWNF5DvVJ63GfFk6Wzgfkdhp7lNxKtNSKtTUtjW1Rz&signature=49DFB546FAE1C58DC68C0AB54C4650DB555F6C9B.AF5F0C13FD592BCFBF533A7265CB954B25293D36">
+            If you are reading this text,<br/>
+            there is a problem with video linl.
+        </video>
+    </figure>
+</section>
+<footer>
+    Tested on Chrome
+</footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\CSharp Projects\CatchTheBits\CatchTheBits\bin\Debug\CatchTheBits.exe.config
+C:\CSharp Projects\CatchTheBits\CatchTheBits\bin\Debug\CatchTheBits.exe
+C:\CSharp Projects\CatchTheBits\CatchTheBits\bin\Debug\CatchTheBits.pdb
+C:\CSharp Projects\CatchTheBits\CatchTheBits\obj\Debug\CatchTheBits.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\CatchTheBits\CatchTheBits\obj\Debug\CatchTheBits.exe
+C:\CSharp Projects\CatchTheBits\CatchTheBits\obj\Debug\CatchTheBits.pdb

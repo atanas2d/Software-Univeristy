@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem 4 - BGJUG WebPage (Semantic version) </title>
+    <style>
+        html, body {
+            font-family: sans-serif, Verdana, Tahoma;
+            height: 100%;
+        }
+        #container {
+            width: 80%;
+            min-width: 900px;
+            margin: 0 auto;
+            border: 2px solid lightgray;
+            box-shadow: 0 0 25px 1px lightgray;
+        }
+        header {
+            min-width: 800px;
+            padding-bottom: 5px;
+            margin: 0 30px;
+            border-bottom: 1px solid lightgray;
+            height: 100px;
+        }
+        header h1 {
+            font-size: 2em;
+            font-weight: normal;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+        header nav ul {
+            list-style-type: none;
+            color: gray;
+            float: left;
+            padding: 0;
+            margin: 5px;
+            margin-left: 15px;
+        }
+        header nav ul li {
+            display:  inline;
+            margin-right: 70px;
+            cursor: pointer;
+        }
+        header form {
+            float: right;
+            height: 25px;
+            border: 1px solid lightgray;
+            background: whitesmoke;
+        }
+        header nav input, button {
+            height: 100%;
+            vertical-align: bottom;
+            padding: 0 3px 0 3px;
+            margin: 0;
+            border: 0;
+            background: whitesmoke;
+            float: left;
+        }
+        header nav button {
+            height: 25px;
+            width: 25px;
+            background-size:  100% 100%;
+            background-image: url("http://png-3.findicons.com/files/icons/1579/devine/256/search.png");
+            background-repeat: no-repeat;
+            box-shadow: 0 0 15px 5px whitesmoke inset;
+        }
+        #content {
+            width: 90%;
+            min-width: 800px;
+            margin: 0 30px;
+            padding: 10px;
+            background: white;
+
+        }
+        #content nav {
+            float: left;
+            width: 200px;
+            margin-top: 60px;
+            padding-right: 30px;
+            padding-top: 10px;
+            border-top: 1px solid lightgray;
+
+        }
+        #content nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin:0;
+            margin-left: 10px;
+        }
+        #content nav ul li {
+            margin: 10px 0;
+            color: steelblue;
+            cursor: pointer;
+        }
+        #content aside {
+            float: right;
+            max-width: 200px;
+            width: 15%;
+            margin-top: 30px;
+        }
+        #content aside .side-title {
+            color: gray;
+            border-bottom: 1px solid lightgray;
+            width: 100%;
+            display: inline-block;
+        }
+        #content aside select {
+            margin-top: 15px;
+            border: 1px solid lightgray;
+            background: white;
+        }
+        #content section {
+            position: relative;
+            float: left;
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-bottom: 65px;
+            width: 50%;
+            min-width: 300px;
+            max-width: 600px;
+            border-bottom: 1px solid lightgray;
+        }
+        #content article {
+            padding-bottom: 20px;
+        }
+        #content article h1 {
+            font-weight: normal;
+            font-size: 2em;
+            margin: 0;
+        }
+        #content article .desc {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: darkgray;
+        }
+        #content article .desc a, .desc a:hover {
+            cursor: pointer;
+            color: gray;
+            border-bottom: 1px solid lightgray;
+        }
+        #content article a, article a:hover {
+            color: steelblue;
+            cursor: pointer;
+        }
+        .back {
+            position: absolute;
+            bottom: -50px;
+            color: steelblue;
+            cursor: pointer;
+        }
+        #tweet-bar {
+            clear: both;
+            background: ghostwhite;
+            height: 25px;
+            padding: 10px;
+            padding-left: 50px;
+            color: gray;
+            margin: 0;
+        }
+        footer {
+            clear:both;
+            color: white;
+            background: black;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        footer h1 {
+            margin: 20px 50px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<section id="container">
+    <header>
+        <h1>BGJUG - Bulgarian Java User Group</h1>
+        <nav>
+            <ul>
+                <li>ABOUT</li>
+                <li>EVENTS</li>
+                <li>CONTACTS</li>
+            </ul>
+            <form action="" method="get">
+                <input type="search" name="search-box" id="search-box" placeholder="Search"/>
+                <button type="submit" name="search-btn" id="search-btn"></button>
+            </form>
+        </nav>
+    </header>
+
+    <section id="content">
+        <nav>
+            <ul>
+                <li>An Architecture of E-Voting</li>
+                <li>Integration Tests for External Services</li>
+                <li>Algorithmic Music</li>
+                <li>Influenced by Tweets</li>
+                <li>The Low Quality of Scientific Code</li>
+                <li>Development "Methodologies"</li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h1>An Architecture for E-Voting</h1>
+                <span class="desc">by <a>BOZHO</a> on <time>May 27, 2014</time> · <a>LEAVE A COMMENT</a> </span>
+                <br/>
+                <p>E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make […]
+                </p>
+                <a>Continue Reading &rarr;</a>
+            </article>
+            <article>
+                <h1>The Optional Type Api</h1>
+                <span class="desc">by <a>BOZHO</a> on <time>May 27, 2014</time> · <a>LEAVE A COMMENT</a> </span>
+                <br/>
+                <p>E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make […]
+                </p>
+                <a>Continue Reading &rarr;</a>
+            </article>
+            <a class="back"> &larr; Previous Entries</a>
+        </section>
+        <aside>
+            <article>
+                <label for="language">
+                <span class="side-title">
+                    LANGUAGE
+                </span>
+                </label>
+                <br/>
+                <select name="language" id="language">
+                    <option value="en" selected>English</option>
+                    <option value="bg">Bulgarian</option>
+                </select>
+            </article>
+            <br/>
+            <article>
+            <span class="side-title">
+                BLOGROLL
+            </span>
+                <br/>
+            </article>
+        </aside>
+    </section>
+    <footer id="footer">
+        <section id="tweet-bar">
+            <img src="http://java-bg.org/wp-content/themes/platform/images/twitter-balloon.png" alt="tweeter"/>
+            <em>Set your Twitter account name in your settings to use TwitterBar Section</em>
+        </section>
+        <section>
+            <h1>BGJIG - Java <br/>
+            Bulgarian <br/>
+            Group</h1>
+        </section>
+    </footer>
+</section>
+
+</body>
+</html>

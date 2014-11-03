@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\bin\Debug\FractionCalculator.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\bin\Debug\FractionCalculator.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\bin\Debug\FractionCalculator.pdb
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\obj\Debug\FractionCalculator.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\obj\Debug\FractionCalculator.exe
+D:\Development\SoftUni\OOP\OOP-HW-OtherTypes\HW-OtherTypes\FractionCalculator\obj\Debug\FractionCalculator.pdb

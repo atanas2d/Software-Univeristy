@@ -1,0 +1,1 @@
+D:\Development\SoftUni\Quality Code Course\03. Naming-Identifiers-Homework\C#\Mini4ki\bin\Debug\Minesweeper.exe.config

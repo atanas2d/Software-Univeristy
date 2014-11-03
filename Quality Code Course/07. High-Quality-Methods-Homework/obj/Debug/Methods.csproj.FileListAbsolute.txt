@@ -1,0 +1,2 @@
+D:\Development\SoftUni\Quality Code Course\07. High-Quality-Methods-Homework\obj\Debug\Methods.exe
+D:\Development\SoftUni\Quality Code Course\07. High-Quality-Methods-Homework\obj\Debug\Methods.pdb

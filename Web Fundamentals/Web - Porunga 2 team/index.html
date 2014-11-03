@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Have some fun with Porunga2 team</title>
+    <link rel="stylesheet" href="cssstyle.css"/>
+    <script src="global.js"></script>
+    <script src="becomeDesigner.js"></script>
+</head>
+<body onload="javascript: NAVBAR">
+
+<header>
+    <h1><a href="index.html" target="_self">PORUNGA2</a></h1>
+    <h3>Sky is the Limit. <strong><a href="https://softuni.bg" target="_blank">SoftUni.bg</a> </strong> is the rocket! </h3>
+</header>
+
+<nav>
+    <ul>
+        <li id="menu-item-home" onclick="NAVBAR.chooseMenuItem(id)"><br/>HOME</li>
+        <li id="menu-item-become-designer" onclick="NAVBAR.chooseMenuItem(id)"><br/>BECOME A DESIGNER</li>
+        <li id="menu-item-about" onclick="NAVBAR.chooseMenuItem(id)"><br/>ABOUT</li>
+    </ul>
+</nav>
+
+<section id="home-content">
+    <h1>Home of Porunga</h1>
+    <article>
+        <figure>
+            <figcaption>What is Porunga?</figcaption>
+            <img src="http://www.oocities.org/exarkun37/porunga.gif" alt="Image of Porunga"/>
+        </figure>
+    </article>
+    <article>
+        <p>Now you understand why you should give <strong>maximum points to Porunga</strong> ...</p>
+    </article>
+    <article>
+        <p>And if you're still not scared, this is  <strong>Porunga2</strong> (Two Porungas): </p>
+        <figure>
+            <img src="http://fc06.deviantart.net/fs71/i/2011/266/c/7/porunga_v1_0_by_fipossss-d4anzjm.jpg" alt="two porungas"/>
+            <figcaption>If you don't believe us, ask Google!</figcaption>
+        </figure>
+    </article>
+    <article>
+        <figure>
+            <figcaption>You can watch Porunga Video: </figcaption>
+            <iframe width="560" height="315" src="//www.youtube.com/embed/7Xw0zebXI5g?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+        </figure>
+    </article>
+</section>
+
+<section id="become-designer-content">
+    <h1>Become a designer</h1>
+    <article>
+        <p>To become a <strong>good designer</strong>, <br/>you have to <strong>practice</strong>. <br/>You can start <strong>right now!</strong></p>
+        <form action="javascript:changeResult();">
+            <figure>
+                <label for="select-color">Background color:</label><br/>
+                <input type="color" id="select-color" value="#ffffff"/><br/>
+            </figure>
+
+            <figure>
+                <figcaption>Select style:</figcaption>
+                <input type="radio" name="extras" id="extra-1" checked/>
+                <label for="extra-1"><img src="images/select-NakovHead.png" alt="Image"/></label>
+                <input type="radio" name="extras" id="extra-2" />
+                <label for="extra-2"><img src="images/select-NakovShaved.png" alt="Image"/></label>
+                <input type="radio" name="extras" id="extra-3"/>
+                <label for="extra-3"><img src="images/select-NakovLongHair.png" alt="image"/></label><br/>
+                <input type="radio" name="extras" id="extra-4"/>
+                <label for="extra-4"><img src="images/select-nakovHeadOptical.png" alt="image"/></label>
+                <input type="radio" name="extras" id="extra-5"/>
+                <label for="extra-5"><img src="images/select-nakovNakedHead.png" alt="image"/></label>
+                <input type="radio" name="extras" id="extra-6"/>
+                <label for="extra-6"></label><br/>
+            </figure>
+            <input type="submit" id="submit-btn" value="Show resulst"/>
+        </form>
+    </article>
+    <article>
+        <figure>
+            <img src="images/nakovHead.png" alt="mr.Nakov image" id="result-img"/>
+        </figure>
+    </article>
+</section>
+
+<section id="about-content">
+    <h1>About</h1>
+    <article>Atanas2d<br/></article>
+</section>
+
+<footer>
+    <section>
+        <p><em>Inspired by <a href="https://softuni.bg" target="_blank">SoftUni.BG</a></em></p>
+        <p><a  href="javascript:NAVBAR.chooseMenuItem('menu-item-about')">ABOUT US</a></p>
+    </section>
+    <article>
+        I'm a student in Software University, Sofia, Bulgaria
+    </article>
+</footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\bin\Debug\SoftUniExamExercises.exe.config
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\obj\Debug\SoftUniExamExercises.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\bin\Debug\SoftUniExamExercises.exe
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\bin\Debug\SoftUniExamExercises.pdb
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\obj\Debug\SoftUniExamExercises.exe
+C:\CSharp Projects\SoftUniExamExercises\SoftUniExamExercises\obj\Debug\SoftUniExamExercises.pdb

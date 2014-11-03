@@ -1,0 +1,9 @@
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\obj\Debug\OOP-Homework-1-Persons.csprojResolveAssemblyReference.cache
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\bin\Debug\OOP-Homework-1.exe.config
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\bin\Debug\OOP-Homework-1.exe
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\bin\Debug\OOP-Homework-1.pdb
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\obj\Debug\OOP-Homework-1.exe
+C:\Users\Atanas2D\documents\visual studio 2013\Projects\OOP-Homework-1\OOP-Homework-1\obj\Debug\OOP-Homework-1.pdb
+C:\Users\Atanas2D\Documents\Visual Studio 2013\Projects\OOP-Homework-1-Persons\OOP-Homework-1\bin\Debug\OOP-Homework-1.exe.config
+C:\Users\Atanas2D\Documents\Visual Studio 2013\Projects\OOP-Homework-1-Persons\OOP-Homework-1\obj\Debug\OOP-Homework-1.exe
+C:\Users\Atanas2D\Documents\Visual Studio 2013\Projects\OOP-Homework-1-Persons\OOP-Homework-1\obj\Debug\OOP-Homework-1.pdb

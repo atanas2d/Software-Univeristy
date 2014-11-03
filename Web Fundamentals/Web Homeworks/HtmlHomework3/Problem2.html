@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem2 - Flight Order</title>
+</head>
+<style>
+    html, body {
+        height: 100%;
+        font-family: Arial, Verdana;
+        background: white;
+    }
+    header {
+        width: 500px;
+        background: lightpink;
+    }
+    header h1 {
+        text-align: center;
+        font-style: italic;
+        padding: 10px;
+        margin: 0;
+    }
+    main {
+        margin: 0;
+        width: 500px;
+        background: lightpink;
+        height: 20%;
+        min-height: 250px;
+    }
+    .description {
+        margin-left: 5px;
+        font-style: italic;
+        font-size: 0.8em;
+    }
+    #left-section, #right-section {
+        width: 48%;
+        margin-left: 1%;
+        float: left;
+    }
+    select, #left-section input {
+        width: 96%;
+    }
+    .three-in-row {
+        float: left;
+        width: 30%;
+        margin-right: 3%;
+    }
+    .two-in-row {
+        float: left;
+        width: 50%;
+    }
+    .two-in-row input {
+        width: 90%;
+    }
+    #submitBtn {
+        margin-top: 1%;
+        width: 96%;
+        height: 30px;
+    }
+</style>
+<body>
+<header>
+    <h1>FLIGHT ORDER</h1>
+</header>
+<main>
+    <form method="post" name="orderForm">
+        <section id="left-section">
+            <label for="destinationFrom"><span class="description">From</span></label>
+            <br/>
+            <select name="destinationFrom" required="required" id="destinationFrom">
+                <option selected>enter a city</option>
+                <option value="Varna">Varna</option>
+                <option value="Sofia">Sofia</option>
+            </select>
+            <br/>
+            <br/>
+            <span class="description">Departure Date</span>
+            <br/>
+            <input type="date" name="departureDate" value="2014-06-09" required="required"/>
+            <br/>
+            <span class="description">Return Date</span>
+            <br/>
+            <input type="date" name="returnDate" value="2014-06-13" required="required"/>
+            <br/>
+            <div class="three-in-row">
+                <span class="description">12+</span>
+                <br/>
+                <input type="number" name="quantity12" min="1" max="30" />
+            </div>
+            <div class="three-in-row">
+                <span class="description">2-12</span>
+                <br/>
+                <input type="number" name="quantity2-12" min="1" max="30"  />
+            </div>
+            <div class="three-in-row">
+                <span class="description">0-2</span>
+                <br/>
+                <input type="number" name="quantity0-2" min="1" max="30"  />
+            </div>
+
+        </section>
+        <section id="right-section">
+            <label for="destinationTo"><span class="description">To</span></label>
+            <br/>
+            <select name="destinationTo" required="required" id="destinationTo">
+                <option selected>enter a city</option>
+                <option value="Varna">Varna</option>
+                <option value="Sofia">Sofia</option>
+            </select>
+            <br/>
+            <input name="preferDirects" type="checkbox" id="preferDirects"/>
+            <label for="preferDirects"><span class="description"> Prefer directs</span></label>
+            <br/>
+            <span class="description">Time interval</span>
+            <br/>
+            <div class="two-in-row">
+                <input type="time" name="departureTimeFrom" value="00:20" required/>
+            </div>
+            <div class="two-in-row">
+                <input type="time" name="departureTimeTo" value="05:00" required/>
+            </div>
+            <br/>
+            <span class="description">Time interval</span>
+            <br/>
+            <div class="two-in-row">
+                <input type="time" name="returnTimeFrom" value="00:20" required/>
+            </div>
+            <div class="two-in-row">
+                <input type="time" name="returnTimeTo" value="05:00" required/>
+            </div>
+            <br/>
+            <label for="selectClass"><span class="description">Choose class</span></label>
+            <br/>
+            <select name="selectClass" id="selectClass" required="required">
+                <option selected value="economy">Economy</option>
+                <option value="business">Business</option>
+            </select>
+            <br/>
+            <input type="submit" name="submitBtn" id="submitBtn" value="Search"/>
+        </section>
+
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\CSharp Projects\HristoComunist\HristoComunist\bin\Debug\HristoComunist.exe.config
+C:\CSharp Projects\HristoComunist\HristoComunist\bin\Debug\HristoComunist.exe
+C:\CSharp Projects\HristoComunist\HristoComunist\bin\Debug\HristoComunist.pdb
+C:\CSharp Projects\HristoComunist\HristoComunist\obj\Debug\HristoComunist.csprojResolveAssemblyReference.cache
+C:\CSharp Projects\HristoComunist\HristoComunist\obj\Debug\HristoComunist.exe
+C:\CSharp Projects\HristoComunist\HristoComunist\obj\Debug\HristoComunist.pdb

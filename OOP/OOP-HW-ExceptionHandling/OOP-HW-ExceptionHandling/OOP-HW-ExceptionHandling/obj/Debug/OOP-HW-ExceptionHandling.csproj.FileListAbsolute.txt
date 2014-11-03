@@ -1,0 +1,6 @@
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\bin\Debug\OOP-HW-ExceptionHandling.exe.config
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\bin\Debug\OOP-HW-ExceptionHandling.exe
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\bin\Debug\OOP-HW-ExceptionHandling.pdb
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\obj\Debug\OOP-HW-ExceptionHandling.csprojResolveAssemblyReference.cache
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\obj\Debug\OOP-HW-ExceptionHandling.exe
+D:\Development\SoftUni\OOP\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\OOP-HW-ExceptionHandling\obj\Debug\OOP-HW-ExceptionHandling.pdb

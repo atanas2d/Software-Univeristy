@@ -1,0 +1,6 @@
+C:\CSharp Projects\NewHouse\NewHouse\bin\Debug\NewHouse.exe.config
+C:\CSharp Projects\NewHouse\NewHouse\bin\Debug\NewHouse.exe
+C:\CSharp Projects\NewHouse\NewHouse\bin\Debug\NewHouse.pdb
+C:\CSharp Projects\NewHouse\NewHouse\obj\Debug\NewHouse.exe
+C:\CSharp Projects\NewHouse\NewHouse\obj\Debug\NewHouse.pdb
+C:\CSharp Projects\NewHouse\NewHouse\obj\Debug\NewHouse.csprojResolveAssemblyReference.cache

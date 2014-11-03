@@ -1,0 +1,1 @@
+C:\CSharp Projects\DataPrimTestProject\DataPrimTestProject\bin\Debug\DataPrimTestProject.exe.config

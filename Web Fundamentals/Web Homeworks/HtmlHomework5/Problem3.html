@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem 3 - Magic Car Gallery</title>
+    <style>
+        html, body {
+            font-family: Tahoma, Verdana, sans-serif;
+            height: 100%;
+        }
+        #content {
+            width: 50%;
+            height: 450px;
+            margin: 20px auto;
+            border-radius: 20px;
+            background: black;
+            box-shadow: 0 0 15px 2px gold;
+            padding: 10px 50px;
+        }
+        #content h1 {
+            text-align: center;
+            font-size: 4em;
+            color: gold;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        #iframe {
+            float: left;
+            padding: 0;
+            margin-right: 20px;
+            border: 1px solid gold;
+            background: gold;
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+
+        }
+        #iframe iframe {
+            border: 0;
+            border-collapse: collapse;
+            width: 420px;
+            height: 320px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }        
+        aside {
+            font-size: 3em;
+            font-style: italic;
+            color: white;
+        }
+        aside ul {
+            margin: 0;
+            padding-top: 10px;
+        }
+        aside ul a, a:hover, a:visited {
+            color: white;
+            text-decoration: none;
+            font-style: italic;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<section id="content">
+    <header>
+        <h1>Magic Car Gallery</h1>
+    </header>
+    <section id="iframe">
+        <iframe name="cars" src="http://www.fordcolors.info/wp-content/uploads/2011/06/2012-Ford-Mustang-GT-Coupe-2.jpg">
+
+        </iframe>
+    </section>
+    <aside>
+        <nav>
+            <ul type="none">
+                <li><a href="http://www.fordcolors.info/wp-content/uploads/2011/06/2012-Ford-Mustang-GT-Coupe-2.jpg" target="cars">Ford Mustang</a></li>
+                <li><a href="http://2.bp.blogspot.com/_31A1OuxefTU/S6ygoq09RVI/AAAAAAAACz4/OfBmjv8kHiQ/s400/bmw-m5.jpg" target="cars">BMW M5</a></li>
+                <li><a href="http://www.mercedes-benzstourbridge.co.uk/media/images/3883279/p1001.VX14KRD.jpg" target="cars">Mercedes E220</a></li>
+                <li><a href="http://www.olympicrentacar.com/blog/wp-content/uploads/2011/06/audiq7.jpg" target="cars">Audi Q7</a></li>
+                <li><a href="http://s1.oto.my/upload/image/2014/03/05/111261/s13-1926-2013HyundaiElantraCouperearsideviewwithElantrasedan1024x640.jpg" target="cars">Hyundai Elantra</a></li>
+            </ul>
+        </nav>
+    </aside>
+</section>
+</body>
+</html>

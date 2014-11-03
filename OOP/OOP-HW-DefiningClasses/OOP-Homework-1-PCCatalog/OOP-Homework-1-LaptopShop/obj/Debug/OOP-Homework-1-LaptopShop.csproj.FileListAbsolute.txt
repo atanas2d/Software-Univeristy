@@ -1,0 +1,6 @@
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\bin\Debug\OOP-Homework-1-LaptopShop.exe.config
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\obj\Debug\OOP-Homework-1-LaptopShop.csprojResolveAssemblyReference.cache
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\bin\Debug\OOP-Homework-1-LaptopShop.exe
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\bin\Debug\OOP-Homework-1-LaptopShop.pdb
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\obj\Debug\OOP-Homework-1-LaptopShop.exe
+c:\users\atanas2d\documents\visual studio 2013\Projects\OOP-Homework-1-LaptopShop\OOP-Homework-1-LaptopShop\obj\Debug\OOP-Homework-1-LaptopShop.pdb

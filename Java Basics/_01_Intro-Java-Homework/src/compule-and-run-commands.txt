@@ -1,0 +1,7 @@
+// Commands for compiling SumTwoNumbers.java in command prompt.
+// NOTE: I'm using IntelliJ IDEA IDE under Windows 7 OS, as it is an optional choice for SoftUni students.
+
+cd C:\Users\atanasWin\IdeaProjects\Intro-Java-Homework\src
+javac SumTwoNumbers.java
+
+// Now I have SumTwuNumbers.class in my src folder.

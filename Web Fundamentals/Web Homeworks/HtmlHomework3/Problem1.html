@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Homework Problem 1 - Simple Forms</title>
+    <style>
+        html, body {
+            height: 100%;
+            background: lightgray;
+            font-family: Arial, Verdana;
+        }
+        header h2 {
+            margin-top: 1%;
+            color: steelblue;
+        }
+        header p {
+            color: gray;
+            margin-bottom: 30px;
+        }
+        #register-form {
+            margin-left: 15px;
+            width: 20%;
+            min-width: 200px;
+            padding: 0;
+            float: left;
+
+        }
+
+        #register-form p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        #register-form strong {
+            color: steelblue;
+        }
+        #registerBtn {
+            width: 46%;
+            float:right;
+            margin: 5px 0;
+            border: 2px solid steelblue;
+            color: steelblue;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        main {
+            height: 300px;
+        }
+        main input {
+            margin: 5px 0;
+            padding: 10px;
+            width: 94%;
+        }
+        #right-form {
+            float: left;
+            background: steelblue;
+            height: 100%;
+            color: white;
+            margin-left: 15px;
+            width: 20%;
+            min-width: 200px;
+            padding-left: 15px;
+        }
+        #login-form {
+            width: 95%;
+        }
+        #rememberMe {
+            margin: 0;
+            width: auto;
+        }
+        #login-form p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        #loginBtn {
+            width: 46%;
+            float:right;
+            margin: 5px 0;
+            border: 2px solid goldenrod;
+            color: white;
+            background: steelblue;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #forgotPas {
+            float: right;
+        }
+        #forgotPas a, a:hover, a:visited {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h2>Enter the system</h2>
+    <p>It is necessary to login in Your account in order to sign in for a course.</p>
+
+</header>
+<main>
+    <form id="register-form" name="register-form" method="post" >
+        <p>ARE YOU NEW? <strong>REGISTER</strong></p>
+        <input type="text" name="userName" placeholder="User name"/><br/>
+        <input type="email" name="email" placeholder="Email"/><br/>
+        <input type="password" name="password" placeholder="Password"/><br/>
+        <input type="password" name="passwordConfirm" placeholder="Confirm Password"/><br/>
+       <input type="submit" name="registerBtn" value="Register" id="registerBtn"/>
+    </form>
+    <div id="right-form">
+        <form id="login-form" name="login-form" method="post" >
+            <p>ALREADY A STUDENT? LOGIN</p>
+            <input type="text" name="userName" placeholder="User name"/><br/>
+            <input type="password" name="Password" placeholder="Password"/><br/>
+            <input type="checkbox" id="rememberMe" name="rememberMe" checked/>
+            <label for="rememberMe">Remember me?</label>
+            <input type="submit" name="loginBtn" value="Login" id="loginBtn"/><br/><br/><br/>
+            <span id="forgotPas"><a href="">Forgot Password</a></span>
+        </form>
+    </div>
+</main>
+</body>
+</html>
